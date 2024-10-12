@@ -2,9 +2,9 @@
 //include "functions.php";
 
 // بيانات الاتصال بقاعدة البيانات المحلية عبر XAMPP
-$dsn = "mysql:host=localhost;dbname=etourism";  // تأكد من أن اسم قاعدة البيانات "etourism" تم إنشاؤها في MySQL
-$user = "root";  // المستخدم الافتراضي لـ XAMPP
-$pass = "";  // كلمة المرور الافتراضية فارغة في XAMPP
+$dsn = "mysql:host=sql210.infinityfree.com;dbname=if0_37371102_etourism";  // تأكد من أن اسم قاعدة البيانات "etourism" تم إنشاؤها في MySQL
+$user = "if0_37371102";  // المستخدم الافتراضي لـ XAMPP
+$pass = "eXsBCqqDJUOTnP";  // كلمة المرور الافتراضية فارغة في XAMPP
 
 $option = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8" // لدعم اللغة العربية
